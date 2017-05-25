@@ -31,7 +31,7 @@ zuul:
     userservice:
       path: /user-service/**
       stripPrefix: false
-      serviceId: user-service 
+      serviceId: user-service
 spring:
   aop:
     proxy-target-class: true
